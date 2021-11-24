@@ -9,9 +9,9 @@ const argv = require("yargs-parser")(
   process.argv.slice(2),
   {
     boolean: ['insecure'],
-    number: ['port']
+    number: ['port'],
+    default: { port: 3030, insecure: false } 
   },
-  { default: { port: 3030, insecure: false } }
 );
 
 const target = argv._[0];
