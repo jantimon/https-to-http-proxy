@@ -1,6 +1,6 @@
 {
   "name": "https-to-http-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows to access an insecure HTTPS page over http",
   "bin": "index.js",
   "main": "index.js",
